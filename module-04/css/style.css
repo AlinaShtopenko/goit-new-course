@@ -1,0 +1,283 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 80px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*
+* {
+    outline: 1px solid red;
+}*/
+
+Img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* header */
+.main-nav {
+    float: right;
+}
+
+.menu {
+    list-style: none;
+    font-size: 14px;
+    line-height: 11px;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+
+
+}
+
+.menu .item {
+    float: left;
+}
+
+
+
+
+
+.menu li:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.logo {
+    display: block;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555252;
+    font-size: 30px;
+    line-height: 32px;
+
+}
+
+.logo::first-letter {
+    font-weight: 700;
+    color: #1abc9c;
+}
+
+.menu .link {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0f0101;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 11px;
+    font-size: 14px;
+
+}
+
+.menu .link:hover {
+
+    color: #1abc9c;
+}
+
+.main-header {
+    padding-top: 40px;
+}
+
+.title {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+
+/* section 1 */
+
+.menu-featured {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-featured li:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.menu-featured li:hover .box-name {
+    background-color: #1abc9c;
+}
+
+.menu-featured li:hover .box-price {
+    background-color: #7fd9c7;
+}
+
+.products {
+    padding-top: 120px;
+    margin-bottom: 100px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 92px;
+    font-size: 48px;
+    line-height: 57.6px;
+    text-transform: uppercase;
+    color: #515151;
+}
+
+.section-title:after {
+    display: block;
+    content: '';
+    height: 5px;
+    width: 164px;
+    background-color: #1abc9c;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.box {
+    float: left;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+.box-name {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: #323232;
+    margin: 0;
+}
+
+.box-price {
+    float: left;
+    width: 55px;
+    height: 40px;
+    background-color: #8c8c8c;
+   margin: 0;
+}
+
+
+
+.price {
+    margin: 0;
+}
+
+.list-item {
+    float: left;
+    width: 255px;
+    margin-right: 30px;
+}
+
+
+.list-item:nth-child(-n+4) {
+    margin-bottom: 30px;
+}
+
+.product-link {
+    float: left;
+}
+
+/* section 2 */
+
+
+.menu-news {
+    list-style: none;
+    margin: 0;  
+    padding: 0;
+ 
+}
+
+
+.menu-news .image {
+    margin: 0;
+    margin-bottom: 11px;
+
+}
+
+.menu-news .heading {
+    margin: 0;
+    margin-bottom: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    color: #555252;
+}
+
+.menu-news .text::before {
+    display: block;
+    width: 138px;
+    height: 3px;
+    background-color: #4ec6ab;
+    content: '';
+    margin-bottom: 23px;
+}
+
+.menu-news .text {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #555252;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 23px;
+}
+
+.menu-news .link-news {
+    float: left;
+}
+
+.news-item {
+    float: left;
+    width: 350px;
+}
+
+.news-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/*.news-item .click  {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    height: 50px;
+    width: 160px;
+    padding: 0;
+    margin: 0 auto;
+    cursor: pointer;
+}*/
+.button {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4ec6ab;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 50px;
+    height: 50px;
+    width: 160px;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+}

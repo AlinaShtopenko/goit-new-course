@@ -1,0 +1,167 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+.visually-hidden:not(:focus):not(:active), input[type="checkbox"].visually-hidden, input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
+
+.wrapper {
+    min-height: 100vh;
+    width: 901px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+    width: 900px;
+    margin: 0 auto;
+
+    }
+
+    
+
+            img {
+            display: block;
+           max-width: 100%;
+            height: auto; 
+            }
+
+/*header*/
+   
+    .main-menu {
+        display:inline-block;
+        width: 900px;
+        margin: 0 auto;
+        padding-top: 70px;
+         padding-bottom: 96px;
+         font-size: 0;
+         list-style: none;
+         text-align: center;
+    }
+
+    .main-menu-item {
+        display: inline-block;
+        margin-right: 110px;
+      }
+      
+      .main-menu-item:last-child {
+         margin-right: 0px;
+      }
+      
+    .main-menu-link:hover {
+        color: #03a9f4
+            }
+
+    .main-menu-link {
+        display: block;
+         list-style: none;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #626262;
+        font-size: 14px;
+       
+    }
+    .picture {
+        margin-bottom: 30px;
+    }
+
+    .text-box {
+ font-family:'Ubuntu', sans-serif;
+ text-transform: uppercase;
+ color: #b4ad9e;
+ margin: 0;
+ margin-bottom: 30px;
+ 
+
+    }
+   
+
+   h3.heading {
+       margin: 0;
+       margin-bottom: 40px;
+       font-weight: normal;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+  
+
+    
+
+
+
+  /*
+* { 
+ outline: 1px solid red;
+*/
+
+
+
+
+.artwidth {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 130px;
+    font-size: 14px;
+
+}
+
+.artwidth:nth-child(2n+1) {
+    margin-right: 0;
+}
+
+
+
+.articles {
+padding-bottom: 70px;
+font-size: 0;
+}
+ 
+
+
+.heading {
+    margin-bottom: 30px;
+}
+
+.story {
+    margin: 0;
+    }
+
+
+
+ .box {
+     display:   block;
+     margin: 0 auto;
+   border: 1px solid #626262;  
+   height: 60px;
+    width: 164px;
+    background-color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+    color:#626262;
+    cursor: pointer;
+
+}
+
+.box:hover {
+    background-color: grey; 
+    color:white;
+}
