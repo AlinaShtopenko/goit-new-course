@@ -1,0 +1,61 @@
+link {db
+tdn
+все для ссылок}
+
+
+
+banner
+ box-container
+  main-header
+    main-nav
+h1 logo
+div
+main-menu
+   main-menu__item
+   main-menu__link
+main-icons
+  main-items__item
+  main-icons__link
+
+  container
+  h2 title
+  p text
+  mogo-button
+     mogo-link
+
+fluid-container
+part-one
+  part-one__text
+  part-one__title
+
+services-menu
+  services__item--alarm
+  services__item--web
+  services__item__creativity
+  services__item--seo
+  services__item--css
+  services__item--digital
+
+  part-two
+    part-two__name
+    part__two--title
+    part-two__text
+
+team-menu
+team-menu__item
+
+   card-menu
+       card-menu__item
+       card-menu__link
+       card-menu__image
+       card-manu__name
+       card__menu--ocuupation
+
+
+
+       main-footer
+       main-footer__text
+       contacts
+       contacts_email
+       contacts__button
+
