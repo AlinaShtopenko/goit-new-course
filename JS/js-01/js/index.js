@@ -22,27 +22,23 @@
 // */
 
 const adminLogin = 'admin';
+
 const adminPassword = 'm4ngo1zh4ackz0r';
 const askLogin = prompt('Ваш логин');
+console.log(askLogin);
 
 
-
-  if (askLogin === null && askLogin === '') {
-   alert('Отменено пользователем!');
+  if (askLogin === '' || askLogin === null) {
+   alert('Отменено пользователем!') 
   } else if (adminLogin !== askLogin) {
   alert('Доступ запрещен, неверный логин!');
-  } else if (askLogin === adminLogin) {
-    alert('Добро пожаловать!');
-  
+  } else if (askLogin === adminLogin) {   
+    const askPassword = prompt('Ваш пароль');
+    if (askPassword === '' || askPassword === null) {
+        alert('Отменено пользователем!');
+    } else if (askPassword !== adminPassword) {
+        alert('Доступ запрещен, неверный пароль!');
+    } else {
+        alert('Добро пожаловать!');
+    }
 }
-
-const askPassword = prompt('Ваш пароль');
-  if (askPassword === null && askLogin === '') {
-      alert('Отменено пользователем!');
-  } else if (askPassword !== adminPassword) {
-      alert('Доступ запрещен, неверный пароль!');
-  } else {
-      alert('Добро пожаловать!');
-  }
-
-  
