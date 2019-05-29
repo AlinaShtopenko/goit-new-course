@@ -145,11 +145,6 @@ input[type="radio"].visually-hidden {
     margin-bottom: 56px;
 
 }
-.services {
-    width: 296px;
-    margin: 0 auto;
-    text-align: center;
-}
 
 .italic {
     font-size: 16px;
@@ -165,11 +160,13 @@ input[type="radio"].visually-hidden {
     line-height: 75px;
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
 }
 
 .text {
     margin: 0;
     margin-bottom: 48px;
+    text-align: center;
 
 }
 
@@ -247,7 +244,9 @@ input[type="radio"].visually-hidden {
     padding-top: 104px;
     background-color: black;
     min-height: 676px;
-
+    background-image: url('../img/map.png');
+    background-repeat: no-repeat;
+    background-position: right; 
 
     width: 100%;
 
@@ -259,11 +258,12 @@ input[type="radio"].visually-hidden {
     padding-top: 74px;
 
     max-width: 1400px;
-    background-image: url('../img/map.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    margin: 0 auto;
+    /* background-image: url('../img/map.png');  */
+   background-repeat: no-repeat;
+   background-position: right; 
+    margin: 0 auto; 
 }
+
 
 .color {}
 
@@ -302,7 +302,7 @@ margin-bottom: 20px;
     /* display: flex; */
   
     width: 940px;
-height: 214px;
+/* height: 214px; */
 }
 .form-item {
     width: 457px;
@@ -383,7 +383,7 @@ height: 214px;
     display: flex;
     margin-bottom: 25px;
 }
- .button {
+ .button:hover {
      justify-content: center;
      border: none;
      width: 240px;
